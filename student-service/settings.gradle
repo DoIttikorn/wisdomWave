@@ -1,0 +1,3 @@
+rootProject.name = 'student-service'
+include("framework")
+project(":framework").projectDir = new File("../framework")
