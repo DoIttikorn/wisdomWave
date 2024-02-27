@@ -1,0 +1,14 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/
+    username: root
+    password: 10pineappleAPPLE10
+    name: school
+  setup-database:
+    enabled: true
+server:
+  port: 8081
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
+
